@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "name": "EsKape Obliterizer Deluxe",
+  "description": "Escape Obliterizer Deluxe is a very simple arcade-ish game. You play as Del, a green square who must avoid getting “obliterized” by incoming hazards",
+  "launch_path": "/index.html",
+  "theme": "#873eff",
+  "theme_color": "#873eff",
+  "background_color": "#873eff",
+  "categories": [
+    "games"
+  ],
+  "orientation": ["portrait", "portrait-primary"],
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "developer": {
+    "name": "arma7x",
+    "url": "https://github.com/arma7x"
+  },
+  "origin": "app://eskape-obliterizer-dx.arma7x.com",
+  "type": "privileged",
+  "permissions": {
+    "device-storage:sdcard":{
+      "access": "readwrite",
+      "description": "Save state"
+    },
+    "volumemanager": {}
+  },
+  "locales": {
+    "en-US": {
+      "name": "EsKape Obliterizer Deluxe",
+      "subtitle": "Escape Obliterizer Deluxe is a very simple arcade-ish game. You play as Del, a green square who must avoid getting “obliterized” by incoming hazards",
+      "description": "Escape Obliterizer Deluxe is a very simple arcade-ish game. You play as Del, a green square who must avoid getting “obliterized” by incoming hazards. The objective is to survive as long as you can!"
+    }
+  },
+  "default_locale": "en-US"
+}

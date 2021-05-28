@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "name": "KARAZU",
+  "description": "Play as Carazu the mouse and explore a fantasy world with spikes and creatures that are trying to kill you",
+  "launch_path": "/index.html",
+  "theme": "#873eff",
+  "theme_color": "#873eff",
+  "background_color": "#873eff",
+  "categories": [
+    "games"
+  ],
+  "orientation": ["portrait", "portrait-primary"],
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "developer": {
+    "name": "arma7x",
+    "url": "https://github.com/arma7x"
+  },
+  "origin": "app://karazu.arma7x.com",
+  "type": "privileged",
+  "permissions": {
+    "device-storage:sdcard":{
+      "access": "readwrite",
+      "description": "Save state"
+    },
+    "volumemanager": {}
+  },
+  "locales": {
+    "en-US": {
+      "name": "KARAZU",
+      "subtitle": "K-Boy Color a full-featured and super-fast emulator to run Game Boy Color games on the broadest range of KaiOS devices.",
+      "description": "Play as Carazu the mouse and explore a fantasy world with spikes and creatures that are trying to kill you. Collect power ups as you progress to give Carazu new abilities!"
+    }
+  },
+  "default_locale": "en-US"
+}
