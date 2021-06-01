@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "K-GEOMETRIX",
   "description": "This is a very simple puzzle game in which the objective is to create rows or columns of 3 or more of the same geometric form",
   "launch_path": "/index.html",

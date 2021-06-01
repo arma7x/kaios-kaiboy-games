@@ -375,7 +375,7 @@ window.addEventListener("load", function() {
         xhttp.responseType = "blob";
         xhttp.onreadystatechange = (evt) => {
           if (evt.target.readyState == 4 && evt.target.status == 200) {
-            this.$router.showDialog('Info', 'Enable sound ?', null, 'Yes', () => {
+            this.$router.showDialog('Info', 'Enable sound(might not works on some device) ?', null, 'Yes', () => {
               loadRom(this.$router, xhttp.response, true);
             }, 'No', () => {
               loadRom(this.$router, xhttp.response, false);
