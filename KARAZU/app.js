@@ -267,7 +267,7 @@ window.addEventListener("load", function() {
         },
         unmounted: function() {
         },
-        softKeyText: { left: 'Select', center: 'PAUSE', right: 'Start' },
+        softKeyText: { left: '', center: 'PAUSE', right: '' },
         softKeyListener: {
           left: function() {
           },

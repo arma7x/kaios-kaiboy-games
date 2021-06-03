@@ -34,7 +34,7 @@ window.addEventListener("load", function() {
       'ArrowDown': 'down',
       'ArrowLeft': 'left',
       'ArrowRight': 'right',
-      'SoftRight': 'start',
+      'SoftRight': 'a',
       'SoftLeft': 'select',
       '9': 'a',
       '#': 'b'
@@ -267,7 +267,7 @@ window.addEventListener("load", function() {
         },
         unmounted: function() {
         },
-        softKeyText: { left: 'Select', center: 'PAUSE', right: 'Start' },
+        softKeyText: { left: '', center: 'PAUSE', right: 'Select' },
         softKeyListener: {
           left: function() {
           },
