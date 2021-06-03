@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "name": "EsKape Obliterizer",
   "description": "Escape Obliterizer Deluxe is a very simple arcade-ish game. You play as Del, a green square who must avoid getting “obliterized” by incoming hazards",
   "launch_path": "/index.html",
