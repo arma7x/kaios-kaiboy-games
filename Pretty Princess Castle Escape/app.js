@@ -282,6 +282,7 @@ window.addEventListener("load", function() {
             }
           },
           right: function() {
+            this.$router.setSoftKeyRightText('');
           }
         },
         dPadNavListener: {
