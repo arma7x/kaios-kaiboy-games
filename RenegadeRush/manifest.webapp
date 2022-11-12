@@ -1,0 +1,38 @@
+{
+  "version": "1.0.1",
+  "name": "Renegade Rush",
+  "description": "You've just pulled off the heist of a century. Now it's time to escape! Using your tricked-out car, smash the cops and do whatever it takes to get away!",
+  "launch_path": "/index.html",
+  "theme": "#873eff",
+  "theme_color": "#873eff",
+  "background_color": "#873eff",
+  "categories": [
+    "games"
+  ],
+  "orientation": ["portrait", "portrait-primary"],
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "developer": {
+    "name": "arma7x",
+    "url": "https://www.kaiostech.com"
+  },
+  "origin": "app://renegade-rush.arma7x.com",
+  "type": "privileged",
+  "permissions": {
+    "device-storage:sdcard":{
+      "access": "readwrite",
+      "description": "Save state"
+    },
+    "volumemanager": {}
+  },
+  "locales": {
+    "en-US": {
+      "name": "Renegade Rush",
+      "subtitle": "You've just pulled off the heist of a century. Now it's time to escape! Using your tricked-out car, smash the cops and do whatever it takes to get away!. Smash cop cars on the sides of the road. Avoid obstacles on the road, indicated by a flashing warning sign. Use your missile system (A) to destroy helicopters. Your missile and special need to recharge, shown on the bars on the bottom. Earn money by destroying enemies, to buy and upgrade your cars.",
+      "description": "You've just pulled off the heist of a century. Now it's time to escape! Using your tricked-out car, smash the cops and do whatever it takes to get away!"
+    }
+  },
+  "default_locale": "en-US"
+}

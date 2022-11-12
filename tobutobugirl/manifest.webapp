@@ -1,0 +1,38 @@
+{
+  "version": "1.0.1",
+  "name": "Tobu Tobu Girl",
+  "description": "Your cat is floating into the atmosphere and you are the only one who can save it",
+  "launch_path": "/index.html",
+  "theme": "#873eff",
+  "theme_color": "#873eff",
+  "background_color": "#873eff",
+  "categories": [
+    "games"
+  ],
+  "orientation": ["portrait", "portrait-primary"],
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "developer": {
+    "name": "arma7x",
+    "url": "https://github.com/arma7x"
+  },
+  "origin": "app://tobutobugirl.arma7x.com",
+  "type": "privileged",
+  "permissions": {
+    "device-storage:sdcard":{
+      "access": "readwrite",
+      "description": "Save state"
+    },
+    "volumemanager": {}
+  },
+  "locales": {
+    "en-US": {
+      "name": "Tobu Tobu Girl",
+      "subtitle": "Your cat is floating into the atmosphere and you are the only one who can save it",
+      "description": "Your cat is floating into the atmosphere and you are the only one who can save it. Jump, dash, and flap your arms to maneuver around perilous obstacles racing against the clock to retrieve your pet friend before it is too late!"
+    }
+  },
+  "default_locale": "en-US"
+}

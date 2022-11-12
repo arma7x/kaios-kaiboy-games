@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "name": "Sushi Nights",
+  "description": "Nights are tough in Neo Sushi City, and hunger spares no one. Only the most hardboiled of sheeps can safely deliver sushi fast enough",
+  "launch_path": "/index.html",
+  "theme": "#873eff",
+  "theme_color": "#873eff",
+  "background_color": "#873eff",
+  "categories": [
+    "games"
+  ],
+  "orientation": ["portrait", "portrait-primary"],
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "developer": {
+    "name": "arma7x",
+    "url": "https://github.com/arma7x/kaios-kaiboy-games"
+  },
+  "origin": "app://sushi-nights.arma7x.com",
+  "type": "privileged",
+  "permissions": {
+    "device-storage:sdcard":{
+      "access": "readwrite",
+      "description": "Save state"
+    },
+    "volumemanager": {}
+  },
+  "locales": {
+    "en-US": {
+      "name": "Sushi Nights",
+      "subtitle": "Nights are tough in Neo Sushi City, and hunger spares no one. Only the most hardboiled of sheeps can safely deliver sushi fast enough to save the starving inhabitants of this ravaged metropolis. Play as Hitsuji-kun, and use your trusty grappling hook to swing through buildings and alleys, locate the sushi, and deliver it to your targets.",
+      "description": "Nights are tough in Neo Sushi City, and hunger spares no one. Only the most hardboiled of sheeps can safely deliver sushi fast enough"
+    }
+  },
+  "default_locale": "en-US"
+}

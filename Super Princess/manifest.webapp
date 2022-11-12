@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "name": "Super Princess",
+  "description": "The evil Lord Zurrapa has stolen the kingdom's crown and now our Super Princess has to take it back! Unveil the secrets of the maze, kill all enemies and bring the glory back to the country",
+  "launch_path": "/index.html",
+  "theme": "#873eff",
+  "theme_color": "#873eff",
+  "background_color": "#873eff",
+  "categories": [
+    "games"
+  ],
+  "orientation": ["portrait", "portrait-primary"],
+  "icons": {
+    "56": "/icons/icon56x56.png",
+    "112": "/icons/icon112x112.png"
+  },
+  "developer": {
+    "name": "arma7x",
+    "url": "https://github.com/arma7x"
+  },
+  "origin": "app://super-princess.arma7x.com",
+  "type": "privileged",
+  "permissions": {
+    "device-storage:sdcard":{
+      "access": "readwrite",
+      "description": "Save state"
+    },
+    "volumemanager": {}
+  },
+  "locales": {
+    "en-US": {
+      "name": "Super Princess",
+      "subtitle": "The evil Lord Zurrapa has stolen the kingdom's crown and now our Super Princess has to take it back!",
+      "description": "The evil Lord Zurrapa has stolen the kingdom's crown and now our Super Princess has to take it back! Unveil the secrets of the maze, kill all enemies and bring the glory back to the country"
+    }
+  },
+  "default_locale": "en-US"
+}
